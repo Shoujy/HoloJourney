@@ -1,5 +1,5 @@
 using System;
-using Managers;
+using Services;
 using Root;
 using UnityEngine;
 using UnityEngine.UI;
@@ -28,7 +28,7 @@ namespace Controllers
 
         private void OpenLevel()
         {
-           var sceneManager = ManagersHolder.Instance.GetManager<SceneManager>();
+           var sceneManager = ServicesHolder.Instance.GetService<SceneService>();
 
            if (sceneManager == null)
            {

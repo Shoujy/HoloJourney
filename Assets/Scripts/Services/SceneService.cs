@@ -1,9 +1,9 @@
 using Root;
 using UnityEngine;
 
-namespace Managers
+namespace Services
 {
-    public class AssetManager : IManager
+    public class SceneService : IService
     {
         public void Initialize()
         {
@@ -13,6 +13,11 @@ namespace Managers
         public void ShutDown()
         {
         
+        }
+
+        public void LoadScene(string sceneName)
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
         }
     }
 }

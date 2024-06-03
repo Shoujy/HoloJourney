@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace Root
 {
-    public interface IManager
+    public interface IService
     {
         public void Initialize()
         {

@@ -1,10 +1,12 @@
+using System;
 using Root;
 using UnityEngine;
 
-namespace Managers
+namespace Services
 {
-    public class UIManager : IManager
+    public class EventService : IService
     {
+
         public void Initialize()
         {
             Debug.LogFormat($"{GetType()} initialized!");
@@ -12,7 +14,7 @@ namespace Managers
 
         public void ShutDown()
         {
-        
+            
         }
     }
 }

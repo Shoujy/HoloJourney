@@ -2,7 +2,7 @@ using System;
 using Root;
 using UnityEngine;
 
-namespace Managers
+namespace Services
 {
     public enum HoloStates
     {
@@ -13,7 +13,7 @@ namespace Managers
         Pause
     }
     
-    public class StateManager : IManager
+    public class StateService : IService
     {
         private HoloStates _currentState;
 
