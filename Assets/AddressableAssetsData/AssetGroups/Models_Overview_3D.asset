@@ -10,13 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: Culture_3D
+  m_Name: Models_Overview_3D
   m_EditorClassIdentifier: 
-  m_GroupName: Culture_3D
+  m_GroupName: Models_Overview_3D
   m_Data:
     m_SerializedData: []
   m_GUID: 8cceb99622a40014cbd3cf2b2cf14a87
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: b47b31f11a2f04aa8a610f4c61cd74c1
+    m_Address: NYBlock01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - City
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 221af04e9bc386b4885ee3ef1e64d3c5, type: 2}
   m_SchemaSet:

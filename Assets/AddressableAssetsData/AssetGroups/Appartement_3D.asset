@@ -16,7 +16,13 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 103e01905b0e8db4a88487cf28ee9f7d
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: b06a7002771176e48b2aaba873e28341
+    m_Address: BPS_Chair_01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Appartaments
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 221af04e9bc386b4885ee3ef1e64d3c5, type: 2}
   m_SchemaSet:

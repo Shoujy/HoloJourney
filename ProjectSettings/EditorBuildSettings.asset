@@ -5,27 +5,24 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Bootstrap.unity
     guid: a7dc88743c3aef54fb09ff471367946d
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Onboarding.unity
     guid: 392eaae88c5aaa041a2d1b534959f7f3
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 48ba183acf2016c41a2c05fe15e6b2de
-  - enabled: 0
-    path: Assets/Scenes/Env1-HighTech.unity
-    guid: ead0b08406dc3ca498e81952974cb6bc
-  - enabled: 0
-    path: Assets/Scenes/Env2-Appartement.unity
-    guid: 009fa9aae31cb8c4eba6afe88f43cb8d
-  - enabled: 0
-    path: Assets/Scenes/Env3-Culture.unity
-    guid: 90922d7b8e3f4ed4697e38878a227123
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 4755b35b590504809a7525fd2109c2e2
+    path: Assets/Scenes/Env1-HighTech.unity
+    guid: c40b55f4e2b262a439d1db36e47193ee
+  - enabled: 1
+    path: Assets/Scenes/Env2-Appartement.unity
+    guid: 20749b7b6c08fb341820029abc9db94b
+  - enabled: 1
+    path: Assets/Scenes/Env3-Culture.unity
+    guid: 92a3d5f6fd33ae2478f253f0306b9810
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6ee72d15cf39dd748a13eac57397b9af,
       type: 2}

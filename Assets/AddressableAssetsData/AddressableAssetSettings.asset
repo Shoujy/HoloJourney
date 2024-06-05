@@ -15,7 +15,7 @@ MonoBehaviour:
   m_DefaultGroup: 1853247ddc1e9234b9c693af6cbcb403
   m_currentHash:
     serializedVersion: 2
-    Hash: aca846a3015dcc9b2641deb58f28812a
+    Hash: 00000000000000000000000000000000
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 0
   m_BundleLocalCatalog: 0
@@ -46,9 +46,12 @@ MonoBehaviour:
   m_GroupAssets:
   - {fileID: 11400000, guid: cf556b6a0d014af45bd9a17f79a2e997, type: 2}
   - {fileID: 11400000, guid: c591218aab1b48e4da922dd41593565a, type: 2}
+  - {fileID: 11400000, guid: 859edfcc153a9e749ae81adb3a19f90c, type: 2}
   - {fileID: 11400000, guid: 55a01344d61cecd4b92b56241c613ce9, type: 2}
   - {fileID: 11400000, guid: 5a28dababafb78e4581aa151cf108a73, type: 2}
   - {fileID: 11400000, guid: d673fe8c98e759748a4c7503fe65b277, type: 2}
+  - {fileID: 11400000, guid: 416973c824dc448488f3a57733ab6626, type: 2}
+  - {fileID: 11400000, guid: 8a793d515849f824882ca9ecd3cdbf05, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -90,6 +93,12 @@ MonoBehaviour:
   m_LabelTable:
     m_LabelNames:
     - default
+    - Level
+    - UI Components
+    - Achivements
+    - HighTech
+    - Appartaments
+    - City
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: 1fbea673b80b4bf42a30b097f97dfc97, type: 2}
